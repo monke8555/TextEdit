@@ -1,0 +1,14 @@
+C:\Users\omerh\source\repos\TextEdit\bin\Debug\TextEdit.exe.config
+C:\Users\omerh\source\repos\TextEdit\bin\Debug\TextEdit.exe
+C:\Users\omerh\source\repos\TextEdit\bin\Debug\TextEdit.pdb
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\TextEdit.csprojAssemblyReference.cache
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\TextEdit.Properties.Resources.resources
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\TextEdit.csproj.GenerateResource.cache
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\TextEdit.csproj.CoreCompileInputs.cache
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\TextEdit.exe
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\TextEdit.pdb
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\TextEdit.Form1.resources
+<<<<<<< HEAD
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\TextEdit.AboutBox1.resources
+=======
+>>>>>>> 0ee1199... x

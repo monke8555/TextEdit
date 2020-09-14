@@ -1,0 +1,16 @@
+C:\Users\omerh\source\repos\TextEdit\bin\Debug\netcoreapp3.1\TextEdit.exe
+C:\Users\omerh\source\repos\TextEdit\bin\Debug\netcoreapp3.1\TextEdit.dll.config
+C:\Users\omerh\source\repos\TextEdit\bin\Debug\netcoreapp3.1\TextEdit.deps.json
+C:\Users\omerh\source\repos\TextEdit\bin\Debug\netcoreapp3.1\TextEdit.runtimeconfig.json
+C:\Users\omerh\source\repos\TextEdit\bin\Debug\netcoreapp3.1\TextEdit.runtimeconfig.dev.json
+C:\Users\omerh\source\repos\TextEdit\bin\Debug\netcoreapp3.1\TextEdit.dll
+C:\Users\omerh\source\repos\TextEdit\bin\Debug\netcoreapp3.1\TextEdit.pdb
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\netcoreapp3.1\TextEdit.csprojAssemblyReference.cache
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\netcoreapp3.1\TextEdit.AboutBox1.resources
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\netcoreapp3.1\TextEdit.Form1.resources
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\netcoreapp3.1\TextEdit.Properties.Resources.resources
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\netcoreapp3.1\TextEdit.csproj.GenerateResource.cache
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\netcoreapp3.1\TextEdit.csproj.CoreCompileInputs.cache
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\netcoreapp3.1\TextEdit.dll
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\netcoreapp3.1\TextEdit.pdb
+C:\Users\omerh\source\repos\TextEdit\obj\Debug\netcoreapp3.1\TextEdit.genruntimeconfig.cache
