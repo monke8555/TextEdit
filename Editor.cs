@@ -1,13 +1,24 @@
 ﻿using System;
+using TextEdit;
 using System.IO;
 using System.Net;
 using System.Text;
+using System.Windows.Forms;
 
-namespace TextEdit
-{
+namespace TextEdit {
     public class Editor {
-        public class Local
-        {
+        public class Local {
+            public static bool Save(string FileLocation, string[] FileContent) {
+                try {
+                    File.WriteAllLines(FileLocation, FileContent);
+                    return true;
+                }
+                catch (Exception e) {
+
+                    Console.WriteLine(e.ToString());
+                    return false;
+                }
+            }
             public string DetectFileEncoding(Stream fileStream)
             {
                 var Utf8EncodingVerifier = Encoding.GetEncoding("utf-8", new EncoderExceptionFallback(), new DecoderExceptionFallback());

@@ -169,6 +169,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.textBox2);
+            this.KeyPreview = true;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Form1";
             this.Text = "TextEdit";
@@ -182,13 +183,13 @@
         }
 
         #endregion
-        private System.Windows.Forms.OpenFileDialog OpenFile;
+        public System.Windows.Forms.OpenFileDialog OpenFile;
         private System.Windows.Forms.Button File;
         private System.Windows.Forms.BindingSource bindingSource1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button Open;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button About;

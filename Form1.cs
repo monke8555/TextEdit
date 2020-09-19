@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using System.IO;
+using TextEdit;
 
 namespace TextEdit {
     public partial class Form1 : Form {
+
+        public string AppLocation = Directory.GetCurrentDirectory() + @"\TextEdit.exe";
         bool clicked = false;
         public Form1() {
             InitializeComponent();
@@ -14,6 +18,7 @@ namespace TextEdit {
             About.MouseLeave += OnMouseLeaveFile;
             textBox2.MouseClick += OnClickTextEditor;
             panel2.MouseClick += OnClickPanel2;
+            FindForm().KeyDown += MyForm_KeyDown;
         }
 
         private void Open_Click(object sender, EventArgs e) {
@@ -89,6 +94,19 @@ namespace TextEdit {
             OnClickPanel2(sender, e);
             AboutBox1 a = new AboutBox1();
             a.ShowDialog();
-        }c
+        }
+
+        private void MyForm_KeyDown(object sender, KeyEventArgs e)
+        {
+            Keys a = e.Modifiers;
+            Keys b = e.KeyCode;
+            if (a == Keys.Control && b == Keys.N) {
+                System.Diagnostics.Process.Start(AppLocation);
+            } else if (a == Keys.Control && b == Keys.S) {
+                if (Editor.Local.Save(textBox1.Text, textBox2.Lines) == false) {
+                    MessageBox.Show("TextEdit encountered an error while saving. \r\n Please try again or restart TextEdit.");
+                } else {}
+            }
+        }
     }
 }
